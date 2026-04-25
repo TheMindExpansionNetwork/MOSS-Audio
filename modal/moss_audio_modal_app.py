@@ -23,7 +23,7 @@ from urllib.request import Request as UrlRequest, urlopen
 import modal
 
 APP_NAME = "jimsky-moss-audio"
-DEFAULT_MODEL_ID = os.environ.get("MOSS_AUDIO_MODEL_ID", "OpenMOSS-Team/MOSS-Audio-4B-Instruct")
+DEFAULT_MODEL_ID = os.environ.get("MOSS_AUDIO_MODEL_ID", "OpenMOSS-Team/MOSS-Audio-4B-Thinking")
 DEFAULT_MAX_NEW_TOKENS = int(os.environ.get("MOSS_AUDIO_MAX_NEW_TOKENS", "512"))
 MAX_AUDIO_BYTES = int(os.environ.get("MOSS_AUDIO_MAX_AUDIO_BYTES", str(25 * 1024 * 1024)))
 REQUIRE_AUTH = os.environ.get("MOSS_AUDIO_REQUIRE_AUTH", "true").lower() not in {"0", "false", "no"}

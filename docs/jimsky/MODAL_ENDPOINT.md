@@ -25,7 +25,7 @@ modal/moss_audio_modal_app.py
 ## Default Model
 
 ```text
-OpenMOSS-Team/MOSS-Audio-4B-Instruct
+OpenMOSS-Team/MOSS-Audio-4B-Thinking
 ```
 
 Override with env:
